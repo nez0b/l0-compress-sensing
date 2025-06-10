@@ -1,0 +1,15 @@
+[project]
+name = "l0opt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cvxpy[cvxopt,glpk,gurobi,scip]>=1.6.5",
+    "eqc-models>=0.11.1",
+    "ipykernel>=6.29.5",
+    "jax>=0.5.3",
+    "matplotlib>=3.10.3",
+    "pywavelets>=1.8.0",
+    "scikit-image>=0.24.0",
+]
